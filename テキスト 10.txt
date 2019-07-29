@@ -1,0 +1,35 @@
+#2 cercle
+rcount = 0
+while not rcount > ect:
+a2 = 0 #cercle centerX
+b2 = 0 #cercle centery
+x2 = a 2 + r * np.cos(np.radians (270 - (90 / ect * rcount)))
+y2 = b2 + r * np.sin(np.radians (270 - (90 / ect * rcount)))
+P = np.append(P,x2)
+Q = np.append( Q, y2)
+rcount +=1
+#3 cercle
+rcount = 0
+while not rcount > ect:
+a3 = 0 #cercle centerx
+b3 = 0 #cercle centery
+x3 = a3 + r * np.cos(np.radians (180 - (90 / ect * rcount)))
+y3 = b3 + r * np.sin(np.radians (180 - (90 / ect * rcount)))
+P = np.append(P,x3)
+Q = np.append(Q,y3)
+rcount +=1
+#4 cercle
+rcount = 0
+while not rcount > ect:
+a4 = 0 #cercle centerX
+b4 = 0 #cercle centery
+r = 50 #radius
+*4 = 24 + r * np.cos(np.radians (90 - (90 / ect * rcount)))
+y4 = 64 + r * np.sin(np.radians (90 - (90 / ect * rcount)))
+P = np.append(P, x4)
+Q = np.append(Q, y4)
+rcount +=1
+if __name__ == '__main__':
+Original_course(100,30)
+plt.plot(P,Q,'-', color = 'blue')
+plt.show()

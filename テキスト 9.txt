@@ -1,0 +1,29 @@
+import numpy as np
+import matplotlib.pyplot as pit
+def Original course(ec,plot_i):
+ec_f = ec%10 #ec-fraction
+#ec/course section
+ect = (ec-ec f) / 4
+ot_i + (ec_f * (plot_i / (ec - ec_f)))
+Xcount = 1
+ycount = 1
+rcount = 1
+global P
+P = np.zeros()
+global Q
+Q = np.zeros(0)
+円の公式
+x = a + 2
+#1 cercle
+ſy = b + 1
+から#231のカー
+rcount = 0
+while not rcount > ect:
+al = 0 #cercle centerX
+b1 = 0 #cercle centery
+r = 50 #radius
+x1 = a1 + r * np.cos(np.radians (0 - (90 / ect * rcount)))
+y1 = 51 + r * np.sin(np.radians (0 - (90 / ect * rcount))).
+P = np.append(P,x1)
+Q = np.append(Q,y1)
+rcount +=1
